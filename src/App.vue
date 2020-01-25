@@ -1,11 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <main-tab-bar></main-tab-bar>
+  </div>
 </template>
 
 <script>
+import MainTabBar from "components/content/maintabbar/MainTabBar.vue";
 export default {
   name: "app",
-  components: {}
+  components: {
+    MainTabBar
+  }
 };
 </script>
 
